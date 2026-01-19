@@ -23,7 +23,7 @@ stages:
       displayName: "Install .NET SDK"
       inputs:
         packageType: 'sdk'
-        version: '8.x'
+        version: '10.x'
 
     - script: dotnet restore
       displayName: "Restore"
